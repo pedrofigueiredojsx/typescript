@@ -1,0 +1,1 @@
+{"version":3,"file":"pluginSlide.js","sourceRoot":"","sources":["../src/pluginSlide.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,MAAM,UAAU,CAAA;AAEnC,SAAS,WAAW,CAAC,OAAe;IAClC,OAAO,CAAC,GAAG,CAAC,gBAAgB,OAAO,EAAE,CAAC,CAAA;AACxC,CAAC;AAED,QAAQ,CAAA;AACR,OAAO,CAAC,GAAG,CAAC,QAAQ,CAAC,CAAA;AAErB,eAAe,WAAW,CAAA"}
