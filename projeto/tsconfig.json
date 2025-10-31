@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    /* Compilação básica */
+    "target": "ES2020",                          // Versão do JavaScript de saída
+    "module": "ES2015",                          // ES Modules (padrão do navegador)
+    "lib": ["ES2021", "DOM", "DOM.Iterable"],    // Suporte ao DOM e APIs do navegador
+    "outDir": "./dist",                          // Pasta de saída dos arquivos compilados
+    "rootDir": "./src",                          // Pasta raiz dos arquivos fonte
+    
+    /* Strictness - começando moderado */
+    "strict": false,                             // Desabilita modo strict (mais fácil pra começar)
+    "noImplicitAny": true,                       // Avisa sobre 'any' implícito
+    "strictNullChecks": false,                   // Mais permissivo com null/undefined
+    
+    /* Opções úteis */
+    "esModuleInterop": true,                     // Melhor compatibilidade com imports
+    "skipLibCheck": true,                        // Pula checagem de arquivos .d.ts (mais rápido)
+    "forceConsistentCasingInFileNames": true,    // Evita problemas com maiúsculas/minúsculas
+    "resolveJsonModule": true,                   // Permite importar arquivos JSON
+    "sourceMap": true,                           // Gera sourcemaps para debug
+    "removeComments": true,                      // Remove comentários do código compilado
+    "moduleResolution": "bundler"                // Resolução moderna (substitui "node")
+  },
+  "include": ["src/**/*"],                       // Inclui todos os arquivos em src
+  "exclude": ["node_modules", "dist"]            // Exclui pastas desnecessárias
+}
